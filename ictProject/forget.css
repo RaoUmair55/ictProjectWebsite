@@ -1,0 +1,58 @@
+body {
+    background-image: url(/www.root/images/trees-3294681_1920.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bike-image {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    align-self: center;
+    margin-left: 15%;
+}
+
+.reset-form {
+    backdrop-filter: blur(3px);
+    padding: 30px;
+    border-radius: 10px;
+    border-radius: 10%;
+    box-shadow: 10px 20px 30px rgba(0, 51, 15, 0.548);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #228B22; /* Electric green color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0px 0px 5px #7e0314,
+    0px 0px 30px #03136be3,
+    0px 0px 90px #ffee05;
+}
